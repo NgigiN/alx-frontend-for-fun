@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Parsing Markdown to HTML
+	Checking arguments and file existence
 """
 if __name__ == "__main__":
     import sys
