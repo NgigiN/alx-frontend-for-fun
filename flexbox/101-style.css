@@ -1,0 +1,62 @@
+:root {
+	--color-1: #cc0fdd;
+	--color-2: #e68341;
+	--color-3: #1cb631;
+	--color-4: #3e3674;
+	--color-5: #127adb;
+	--font-big: 4rem;
+	--box-width: 3.5;
+	--box-height: 2;
+}
+
+.container {
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(-0.7rem);
+}
+
+.box1,
+.box5 {
+	font-size: calc(var(--font-big) * 0.25);
+	width: calc(var(--font-big) * 0.25 * var(--box-width));
+	height: calc(var(--font-big) * 0.25 * var(--box-height));
+}
+
+.box2,
+.box4 {
+	font-size: calc(var(--font-big) * 0.5);
+	width: calc(var(--font-big) * 0.5 * var(--box-width));
+	height: calc(var(--font-big) * 0.5 * var(--box-height));
+}
+
+.box1 {
+	background: var(--color-1);
+}
+
+.box2 {
+	background: var(--color-2);
+}
+
+.box3 {
+	background: var(--color-3);
+	font-size: calc(var(--font-big) * 1);
+	width: calc(var(--font-big) * var(--box-width));
+	height: calc(var(--font-big) * var(--box-height));
+}
+
+.box4 {
+	background: var(--color-4);
+}
+
+.box5 {
+	background: var(--color-5);
+}
