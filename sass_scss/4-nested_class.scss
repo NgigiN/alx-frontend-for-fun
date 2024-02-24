@@ -5,7 +5,7 @@ $color_2: #FF0000;
 body {
 	color: $color_1;
 
-	body .red {
+	.red {
 		color: $color_2;
 	}
 }
