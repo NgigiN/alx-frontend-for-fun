@@ -1,0 +1,15 @@
+/* My style */
+
+$color_new: #00FF00;
+
+.info, .success, .warning {
+	font-size: 12px;
+}
+
+.success {
+	color: $color_new;
+}
+
+.warning {
+	color: $color_new;
+}
