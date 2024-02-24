@@ -2,14 +2,16 @@
 
 $color_new: #00FF00;
 
-.info, .success, .warning {
+.info {
 	font-size: 12px;
 }
 
 .success {
-	color: $color_new;
+	@extend .info;
+	color: #00FF00;
 }
 
 .warning {
-	color: $color_new;
+	@extend .info;
+	color: #FF0000;
 }
